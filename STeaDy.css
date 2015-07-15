@@ -1,9 +1,10 @@
 body {
   padding:0;
   margin:0 auto;
+  background:none;
 }
 
-header-container{
+#header-container{
   width:100%;
   margin:auto;
   padding:0px;
@@ -12,15 +13,43 @@ header-container{
   left:0px;
   background:black;
 }
-header-menu{
+#header-menu{
   
 }
+ul li {
+  text-align:center;
+}
+li a {
+  display:inline-block;
+  font-size:1.5em;
+  color:white;
+  font-family:Arial;
+  text-transform:uppercase;
+  text-decoration:none;
+  padding:2em;
+}
+li a:hover {
+  display:inline-block;
+  font-size:1.5em;
+  color:white;
+  font-family:Arial;
+  text-transform:uppercase;
+  text-decoration:none;
+  padding:2em;
+}
 
-container {
+#container {
   width:100%;
   margin:auto;
   padding:0px;
   overflow:auto;
   margin-top:10%;
   background:none;
+}
+
+.left-container{
+  
+}
+.right-container{
+  
 }
