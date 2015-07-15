@@ -11,7 +11,7 @@ body {
   position:fixed;
   top:0px;
   left:0px;
-  background:black;
+  background:#fa987d;
 }
 #header-menu{
   
@@ -53,11 +53,12 @@ li a:hover {
   float:left;
   overflow:auto;
   width:;
-  
+  background:#72cca7;
 }
 .right-container{
    position:absolute;
   float:left;
   overflow:auto;
   width:;
+  background:#10a296;
 }
